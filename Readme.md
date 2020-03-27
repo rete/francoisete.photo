@@ -1,3 +1,5 @@
+Status du dernier deploiement: [![Build Status](https://travis-ci.org/rete/francoisete.photo.svg?branch=master)](https://travis-ci.org/rete/francoisete.photo)
+
 ## Site web Francois Ete
 
 Ce repo Github contient les fichiers sources du site web pro de Francois Ete.
