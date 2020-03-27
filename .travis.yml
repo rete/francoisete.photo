@@ -1,0 +1,20 @@
+sudo: required
+dist: trusty
+
+language: minimal
+
+before_script:
+  - sudo apt-get install -y ncftp
+
+# deploy website
+script:
+  - 
+  - if [[ "${TRAVIS_COMMIT_MESSAGE}" != *"[no-deploy]"* ]];
+    then .travis-ci.d/deploy.sh
+    fi
+
+# Don't send e-mail notifications
+notifications:
+  email:
+    on_success: never
+    on_failure: always
