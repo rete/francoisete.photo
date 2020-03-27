@@ -8,9 +8,7 @@ before_script:
 
 # deploy website
 script:
-  - if [[ "${TRAVIS_COMMIT_MESSAGE}" != *"[no-deploy]"* ]];
-    then .travis-ci.d/deploy.sh
-    fi
+  - .travis-ci.d/deploy.sh
 
 # Don't send e-mail notifications
 notifications:
