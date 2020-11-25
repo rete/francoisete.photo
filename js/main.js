@@ -32,22 +32,22 @@ var menuData = {
 }
 
 var carouselData = [{
-    img: "images/carousel/lavande.jpg",
+    img: "images/carousel/lavande-min.jpg",
     text: "Text photo 1"
   }, {
-    img: "images/carousel/corporate.jpg",
+    img: "images/carousel/corporate-min.jpg",
     text: "Text photo 2"
   }, {
-    img: "images/carousel/portrait.jpg",
+    img: "images/carousel/portrait-min.jpg",
     text: "Text photo 3"
   }, {
-    img: "images/carousel/pressbook.jpg",
+    img: "images/carousel/pressbook-min.jpg",
     text: "Text photo 4"
   }, {
-    img: "images/carousel/vin-et-olive.jpg",
+    img: "images/carousel/vin-et-olive-min.jpg",
     text: "Text photo 5"
   }, {
-    img: "images/carousel/drone.jpg",
+    img: "images/carousel/drone-min.jpg",
     text: "Text photo 6"
 }]
 
