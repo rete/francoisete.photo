@@ -207,5 +207,8 @@ function setupCarousel() {
   }
 }
 
-setupNavigation() ;
-setupCarousel() ;
+function preloadCarousel() {
+  for( var i=0 ; i<carouselData.length ; i++ ) {
+    new Image().src = carouselData[i].img ;
+  }
+}
